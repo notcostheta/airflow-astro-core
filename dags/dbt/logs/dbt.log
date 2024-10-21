@@ -1,0 +1,29 @@
+[0m18:27:21.598370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf11c12d9c0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf11c11257d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf11c11257250>]}
+
+
+============================== 18:27:21.602319 | 8b86c299-f2ca-48fe-91c0-10298210e2c2 ==============================
+[0m18:27:21.602319 [info ] [MainThread]: Running with dbt=1.8.7
+[0m18:27:21.603164 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/ubuntu/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:27:24.432988 [debug] [MainThread]: Starter project path: /home/ubuntu/Desktop/zoomcamp-speedrun/.venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m18:27:24.436332 [info ] [MainThread]: 
+Your new dbt project "cosmosproject" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:27:24.436991 [info ] [MainThread]: Setting up your profile.
+[0m18:28:56.240514 [info ] [MainThread]: Profile cosmosproject written to /home/ubuntu/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:28:56.242130 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 94.71698, "process_user_time": 1.731823, "process_kernel_time": 0.121987, "process_mem_max_rss": "92804", "process_in_blocks": "80", "process_out_blocks": "352"}
+[0m18:28:56.243130 [debug] [MainThread]: Command `dbt init` succeeded at 18:28:56.242945 after 94.72 seconds
+[0m18:28:56.243779 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf11c12d9c0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf11c112572b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xf11c119873d0>]}
+[0m18:28:56.244474 [debug] [MainThread]: Flushing usage events
